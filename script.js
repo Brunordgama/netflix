@@ -10,5 +10,21 @@ document.getElementById('yes-btn').addEventListener('click', function() {
 
 document.getElementById('no-btn').addEventListener('click', function() {
     document.getElementById('response').innerText = 'Sua chata não gosto de você!😛';
-    document.getElementById('response').classList.remove('hidden');
+    document.getElementById('response').classList.remove('hidden')
 });
+{function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";}
+
+
