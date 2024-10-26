@@ -1,6 +1,6 @@
 <script>
     document.getElementById('yes-btn').addEventListener('click', function() {
-        document.getElementById('response').innerText = 'haaaaa muleque, ihulllllllll';
+        document.getElementById('response').innerText = '❤️';
         document.getElementById('response').classList.remove('hidden');
 
         setTimeout(() => {
