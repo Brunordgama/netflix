@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .hidden {
-            display: none;
-        }
-        #no-btn {
-            position: absolute; /* Para permitir o movimento aleatório */
-        }
-    </style>
-    <title>Teste de Botões</title>
-</head>
-<body>
-
-<button id="yes-btn">Sim</button>
-<button id="no-btn">Não</button>
-<div id="response" class="hidden"></div>
-
 <script>
     document.getElementById('yes-btn').addEventListener('click', function() {
         document.getElementById('response').innerText = 'haaaaa muleque, ihulllllllll';
@@ -51,6 +30,3 @@
         botaoNao.style.top = aleatorioY + "px";
     }
 </script>
-
-</body>
-</html>
